@@ -120,6 +120,8 @@
           @doCommand "GoTo", "previous"
         when 220 # Backslash (fullscreen)
           @doAction "fullscreen"
+        when 89 # y (switchplayer)
+          @doAction "SwitchPlayer"
         else # return everything else here
 
 
